@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginVertical="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="242dp"
+            android:layout_height="181dp"
+            android:src="@drawable/grop" />
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berhasil Disimpan" />
+
+        <TextView
+            android:fontFamily="@font/robot_regular"
+            android:textAlignment="center"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:text="Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat." />
+        <Button
+            android:id="@+id/ok"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundhijau"
+            android:text="Ok"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
